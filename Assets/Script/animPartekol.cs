@@ -4,18 +4,22 @@ using UnityEngine;
 
 public class animPartekol : MonoBehaviour
 {
-
-    public ParticleSystem particleSystem;
+    public GameObject NgameObject;
+    public ParticleSystem NparticleSystem;
     public Animator animator;
-
-    private void OnParticleCollision(GameObject other)
+    public string trigger;
+    private void Start()
     {
-        if (other.gameObject)
-        {
-            particleSystem.Play();
-            animator.SetTrigger("ActivateAnimation");
-        }
-        
+        NparticleSystem.Pause();
     }
-   
+    
+    private void OnTriggerEnter(Collider other)
+    {
+        Debug.Log("g");
+        if (other.gameObject == NgameObject)
+        {
+            NparticleSystem.Play();
+            animator.SetTrigger(trigger);
+        }
+    }
 } 
