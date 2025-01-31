@@ -8,7 +8,7 @@ public class teleporttolabarotorio : MonoBehaviour
 	public GameObject spawn;
 	public Text infoTable;
 	int index;
-	private void OnTriggerEnter(Collider other)
+	void OnTriggerEnter(Collider other)
 	{
 		Teleport();
 	}
@@ -20,7 +20,7 @@ public class teleporttolabarotorio : MonoBehaviour
 		Instantiate(alement, spawn.transform);
 	}
 
-	public void Teleport()
+	void Teleport()
     {
         SceneManager.LoadScene(index);
     }
