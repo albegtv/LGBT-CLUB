@@ -7,27 +7,36 @@ public class teleporttolabarotorio : MonoBehaviour
 {
 	public GameObject spawn;
 	public Text infoTable;
-	int index;
-	void OnTriggerEnter(Collider other)
+	public int index;
+	public NAlement[] SA;
+
+	public void Alement(int ind)
 	{
-		Teleport();
+		foreach (NAlement i in SA)
+		{
+			if (ind == i.indeex)
+			{
+				infoTable.transform.parent.gameObject.SetActive(true);
+				infoTable.text = i.info;
+				index = ind;
+				Instantiate(i.al, spawn.transform);
+			}
+		}
 	}
 
-	public void Alement(int ind, GameObject alement, string info)
+	public void Teleport()
 	{
-		infoTable.text = info;
-		index = ind;
-		Instantiate(alement, spawn.transform);
+		if (index != 0)
+		{
+			Debug.Log(index);
+			SceneManager.LoadScene(index);
+		}
 	}
-
-	void Teleport()
-    {
-        SceneManager.LoadScene(index);
-    }
-	
-	public void OnInfo(bool b)
+	[System.Serializable]
+	public class NAlement
 	{
-		b = !b;
-		infoTable.gameObject.SetActive(b);
+		public int indeex;
+		public string info;
+		public GameObject al;
 	}
 }
