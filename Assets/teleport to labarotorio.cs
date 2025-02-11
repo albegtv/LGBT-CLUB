@@ -3,40 +3,44 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class teleporttolabarotorio : MonoBehaviour
+public class Teleporttolabarotorio : MonoBehaviour
 {
 	public GameObject spawn;
 	public Text infoTable;
 	public int index;
 	public NAlement[] SA;
+    private void OnTriggerEnter(Collider other)
+    {
+		Teleport();
+    }
 
-	public void Alement(int ind)
+    public void Alement(int ind)
 	{
 		foreach (NAlement i in SA)
 		{
-			if (ind == i.indeex)
+			if (ind == i.indeexAl)
 			{
 				infoTable.transform.parent.gameObject.SetActive(true);
 				infoTable.text = i.info;
-				index = ind;
+				index = i.indeex;
 				Instantiate(i.al, spawn.transform);
 			}
 		}
 	}
 
-	public void Teleport()
+    public void Teleport()
 	{
 		if (index != 0)
 		{
-			Debug.Log(index);
 			SceneManager.LoadScene(index);
 		}
 	}
-	[System.Serializable]
-	public class NAlement
-	{
-		public int indeex;
-		public string info;
-		public GameObject al;
-	}
+}
+[System.Serializable]
+public class NAlement
+{
+    public int indeexAl;
+    public int indeex;
+    public string info;
+    public GameObject al;
 }
