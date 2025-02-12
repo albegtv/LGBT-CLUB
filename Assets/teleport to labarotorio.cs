@@ -3,10 +3,11 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class teleporttolabarotorio : MonoBehaviour
+public class Teleporttolabarotorio : MonoBehaviour
 {
 	public GameObject spawn;
 	public Text infoTable;
+<<<<<<< HEAD
 	int index;
 	void OnTriggerEnter(Collider other)
 	{
@@ -21,13 +22,42 @@ public class teleporttolabarotorio : MonoBehaviour
 	}
 
 	void Teleport()
+=======
+	public int index;
+	public NAlement[] SA;
+    private void OnTriggerEnter(Collider other)
+>>>>>>> 6da442b487e7bd0fef99e2085f4f1b531a5fe838
     {
-        SceneManager.LoadScene(index);
+		Teleport();
     }
-	
-	public void OnInfo(bool b)
+
+    public void Alement(int ind)
 	{
-		b = !b;
-		infoTable.gameObject.SetActive(b);
+		foreach (NAlement i in SA)
+		{
+			if (ind == i.indeexAl)
+			{
+				infoTable.transform.parent.gameObject.SetActive(true);
+				infoTable.text = i.info;
+				index = i.indeex;
+				Instantiate(i.al, spawn.transform);
+			}
+		}
 	}
+
+    public void Teleport()
+	{
+		if (index != 0)
+		{
+			SceneManager.LoadScene(index);
+		}
+	}
+}
+[System.Serializable]
+public class NAlement
+{
+    public int indeexAl;
+    public int indeex;
+    public string info;
+    public GameObject al;
 }
