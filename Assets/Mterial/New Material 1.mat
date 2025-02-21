@@ -22,20 +22,18 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: New Material 1
   m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
-  m_Parent: {fileID: 2100000, guid: b2f77492a7a042942ad0f0395f6fedfd, type: 2}
-  m_ModifiedSerializedProperties: 0
+  m_Parent: {fileID: 2100000, guid: b15a50b3e5aecd74088c86b9b21dc8d4, type: 2}
+  m_ModifiedSerializedProperties: 16
   m_ValidKeywords:
-  - _SURFACE_TYPE_TRANSPARENT
+  - _ENVIRONMENTREFLECTIONS_OFF
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
+  m_CustomRenderQueue: 2000
   stringTagMap:
-    RenderType: Transparent
+    RenderType: Opaque
   disabledShaderPasses:
-  - DepthOnly
-  - SHADOWCASTER
   - MOTIONVECTORS
   m_LockedProperties: 
   m_SavedProperties:
@@ -43,10 +41,13 @@ Material:
     m_TexEnvs: []
     m_Ints: []
     m_Floats:
+    - _DstBlendAlpha: 0
     - _Metallic: 1
-    - _Smoothness: 0.572
+    - _QueueControl: 0
+    - _Smoothness: 0.1
+    - _SrcBlend: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 1, b: 1, a: 0.11764706}
-    - _Color: {r: 1, g: 1, b: 1, a: 0.11764706}
+    - _BaseColor: {r: 1, g: 0.78299713, b: 0.65471697, a: 0.29411766}
+    - _Color: {r: 1, g: 0.7829971, b: 0.65471697, a: 0.29411766}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
