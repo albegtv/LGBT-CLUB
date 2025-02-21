@@ -7,9 +7,26 @@ public class Teleporttolabarotorio : MonoBehaviour
 {
 	public GameObject spawn;
 	public Text infoTable;
+<<<<<<< HEAD
+	int index;
+	void OnTriggerEnter(Collider other)
+	{
+		Teleport();
+	}
+
+	public void Alement(int ind, GameObject alement, string info)
+	{
+		infoTable.text = info;
+		index = ind;
+		Instantiate(alement, spawn.transform);
+	}
+
+	void Teleport()
+=======
 	public int index;
 	public NAlement[] SA;
     private void OnTriggerEnter(Collider other)
+>>>>>>> 6da442b487e7bd0fef99e2085f4f1b531a5fe838
     {
 		Teleport();
     }
