@@ -107,7 +107,7 @@ Material:
     - _CastShadows: 0
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
-    - _Cull: 2
+    - _Cull: 0
     - _Cutoff: 0.5
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
@@ -132,7 +132,7 @@ Material:
     - _ZWrite: 1
     - _ZWriteControl: 1
     - _eyu: 0.04
-    - _fill: 0.574
+    - _fill: 0.624
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}

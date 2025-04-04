@@ -37,7 +37,7 @@ Material:
     RenderType: Transparent
   disabledShaderPasses:
   - SHADOWCASTER
-  m_LockedProperties: 
+  m_LockedProperties: _ZTest
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -57,21 +57,21 @@ Material:
     m_Floats:
     - _AlphaClip: 1
     - _AlphaToMask: 0
-    - _Blend: 1
+    - _Blend: 0
     - _CastShadows: 0
-    - _Cull: 1
+    - _Cull: 0
     - _DstBlend: 10
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _SrcBlend: 1
+    - _SrcBlend: 5
     - _Surface: 1
-    - _ZTest: 4
+    - _ZTest: 8
     - _ZWrite: 1
     - _ZWriteControl: 1
     - _eyu: 0.04
     - _fill: 0.52
     m_Colors:
-    - _ColorX: {r: 0.6981132, g: 0.5136087, b: 0.15477037, a: 0.36078432}
-    - _ColorY: {r: 0.8301887, g: 0.5381974, b: 0.30153078, a: 0.3254902}
+    - _ColorX: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorY: {r: 1, g: 1, b: 1, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
