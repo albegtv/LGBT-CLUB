@@ -21,7 +21,6 @@ Material:
   stringTagMap:
     RenderType: Opaque
   disabledShaderPasses:
-  - MOTIONVECTORS
   - SHADOWCASTER
   m_LockedProperties: 
   m_SavedProperties:
@@ -117,6 +116,7 @@ Material:
     - _ZTest: 2
     - _ZWrite: 1
     - _ZWriteControl: 0
+    - _eyu: 1
     - _fill: 0.548
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}

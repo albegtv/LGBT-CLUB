@@ -122,7 +122,7 @@ Material:
     - _ZWrite: 0
     - _ZWriteControl: 0
     - _eyu: 0.052
-    - _fill: 0.58
+    - _fill: 0.60249996
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
