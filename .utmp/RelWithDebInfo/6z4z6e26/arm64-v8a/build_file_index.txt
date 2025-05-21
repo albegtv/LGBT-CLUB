@@ -1,0 +1,2 @@
+C:\Users\VR\Documents\GitHub\LGBT-CLUB1\LGBT-CLUB\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\CMakeLists.txt
+C:\Users\VR\Documents\GitHub\LGBT-CLUB1\LGBT-CLUB\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\CMakeLists.txt

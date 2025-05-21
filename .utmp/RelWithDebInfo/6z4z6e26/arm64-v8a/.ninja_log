@@ -1,0 +1,10 @@
+# ninja log v5
+9	2794	7695323821721777	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	39e2b3002ce10c90
+7	2798	7695323822998364	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	e956d3eec4d3f7c3
+14	2974	7695323824394622	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	aca6d0865cb523c3
+3	3029	7695323824883312	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	fba5b94c75de0fe0
+5	3078	7695323825800867	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	f2cfc22d8417bc3a
+11	3371	7695323828703104	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	ada3031daa14ee1d
+16	3391	7695323828932492	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	fd9a380d9b2e65d0
+1	4232	7695323836791478	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	e1302c28415847f0
+4232	4882	7695323841449046	C:/Users/VR/Documents/GitHub/LGBT-CLUB1/LGBT-CLUB/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/6z4z6e26/obj/arm64-v8a/libgame.so	84b4253610deb922

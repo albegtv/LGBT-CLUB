@@ -1,0 +1,5 @@
+C:/Users/VR/Documents/GitHub/LGBT-CLUB1/LGBT-CLUB/.utmp/RelWithDebInfo/6z4z6e26/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/Users/VR/Documents/GitHub/LGBT-CLUB1/LGBT-CLUB/.utmp/RelWithDebInfo/6z4z6e26/arm64-v8a/CMakeFiles/rebuild_cache.dir
+C:/Users/VR/Documents/GitHub/LGBT-CLUB1/LGBT-CLUB/.utmp/RelWithDebInfo/6z4z6e26/arm64-v8a/GameActivity/CMakeFiles/game.dir
+C:/Users/VR/Documents/GitHub/LGBT-CLUB1/LGBT-CLUB/.utmp/RelWithDebInfo/6z4z6e26/arm64-v8a/GameActivity/CMakeFiles/edit_cache.dir
+C:/Users/VR/Documents/GitHub/LGBT-CLUB1/LGBT-CLUB/.utmp/RelWithDebInfo/6z4z6e26/arm64-v8a/GameActivity/CMakeFiles/rebuild_cache.dir
